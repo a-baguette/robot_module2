@@ -20,3 +20,4 @@ To run the code:
   1. Go to device manager under Ports (COM & LPT) to find out which port your motor is connected to. Change the value in the variable "DEVICENAME" in the code to match.
   2. Switch on the PHB.
   3. Run the code from windows powershell by going into the folder where the code is and typing "python gvf1.2.py" or "python gvf2.2.py".
+  4. The file "gvf1.2" uses a fixed gamma value while the file "gvf2.2" uses a state-dependent gamma value. Both files are nearly identical but to make it easier for running, they are split up.
